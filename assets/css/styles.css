@@ -1,5 +1,123 @@
+/*-----------------
+* [Master Stylesheet]
+*
+* Theme    : Xcent
+* Version  : 1.1
+* Author   : beingeorge
+* Support  : hello@beingeorge.com
+* 
+------------------*/
+
+
+
+/*-----------------
+  [ALL CONTENTS]
+
+1. General styles
+2. Home
+3. Navigation
+4. Portfolio
+5. Servise
+6. About
+7. Testimonial
+8. Blog	
+9. Contact and Map
+10. Footer
+11. Scroll to top
+12. Preloader
+13. Tags
+14. All Media Queries
+
+------------------*/
+
+/* ---------------------------------------------- /*
+*   1. General styles
+/* ---------------------------------------------- */
 body {
-    font: 400 12px/1.8 'Poppins', sans-serif;
-    color: #5b5963;
-    overflow-x: hidden;
+	font: 400 12px/1.8 'Poppins', sans-serif;
+	color: #5b5963;
+	overflow-x: hidden;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+a {
+	color: #49e2d6;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #999;
+}
+
+/*** Transition elements ***/
+
+.navbar a,
+.form-control {
+	-webkit-transition: all 0.4s ease-in-out 0s;
+	-moz-transition: all 0.4s ease-in-out 0s;
+	-ms-transition: all 0.4s ease-in-out 0s;
+	-o-transition: all 0.4s ease-in-out 0s;
+	transition: all 0.4s ease-in-out 0s;
+}
+
+a,
+.btn {
+	-webkit-transition: all 0.125s ease-in-out 0s;
+	-moz-transition: all 0.125s ease-in-out 0s;
+	-ms-transition: all 0.125s ease-in-out 0s;
+	-o-transition: all 0.125s ease-in-out 0s;
+	transition: all 0.125s ease-in-out 0s;
+}
+
+/*** Reset box-shadow ***/
+
+.btn,
+.form-control,
+.form-control:hover,
+.form-control:focus,
+.navbar-custom .dropdown-menu {
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+/*** Typography ***/
+
+h1, h2, h3, h4, h5, h6 {
+	font: 700 40px/1.2 'Poppins', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	margin: 5px 0 5px;
+	color: #5b5963;
+}
+
+h2 {
+	font-size: 30px;
+	margin: 0 0 30px;
+}
+
+h3 {
+	font-size: 13px;
+	letter-spacing: 1px;
+	margin: 0 0 5px;
+}
+
+h4 {
+	font-size: 12px;
+	letter-spacing: 1px;
+}
+
+h5 {
+	font-size: 12px;
+	letter-spacing: 1px;
+	font-weight: 400;
+}
+
+h6 {
+	font-size: 11px;
+	letter-spacing: 1px;
+	font-weight: 400;
 }
